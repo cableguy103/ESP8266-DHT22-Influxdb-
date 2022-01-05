@@ -14,8 +14,8 @@
 #define DHTPIN 4     // what digital pin the DHT22 is conected to
 #define DHTTYPE DHT22   // there are multiple kinds of DHT sensors
 #define INFLUXDB_HOST "192.168.1.225"   //Enter IP of device running Influx Database
-#define WIFI_SSID "Homeland Security"              //Enter SSID of your WIFI Access Point
-#define WIFI_PASS "jade103andruby"          //Enter Password of your WIFI Access Point
+#define WIFI_SSID "XXXXXXXXXX"              //Enter SSID of your WIFI Access Point
+#define WIFI_PASS "XXXXXXXXXXX"          //Enter Password of your WIFI Access Point
 
 ESP8266WiFiMulti WiFiMulti;
 Influxdb influx(INFLUXDB_HOST);
